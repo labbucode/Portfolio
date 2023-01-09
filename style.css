@@ -1,5 +1,5 @@
 body{
-    background-color: #f6f5f5;
+    background-color: #ffffff;
     margin: 0px;
     padding: 0px;
 }
@@ -23,7 +23,7 @@ nav{
     align-items: center;
     height: 60px;
     background-color: #ffffff;
-    box-shadow: 2px 2px 12px rgb(0,0,0,0.2);
+    box-shadow: 2px 5px 12px rgb(0,0,0,0.2);
     padding: 0px 5%;
 }
 nav ul{
@@ -42,19 +42,23 @@ nav ul li a{
 .logo{
     font-family: RoadTest;
     color: #000000;
-    font-size: 22px;
+    font-size: 50px;
+    font-weight: 900;
 }
 .active{
     color: #2d2a2a;
     font-weight: bold;
 }
 .model{
-    height: 530px;
+    height: 450px;
     position: absolute;
-    bottom: 40px;
+    bottom: 104px;
     left: 75%;
     transform: translateX(-75%);
+	/* box-shadow:2px 2px 18px rgba(0,0,0,0.3); */
 }
+
+
 .text-container p:nth-child(1){
     font-family: calibri;
     font-weight: bold;
@@ -99,7 +103,7 @@ nav ul li a{
     color: #373636;
     background-color: transparent;
 }
-.down-cv{
+.resume{
     background-color: #0B0B0B;
     color: #fff;
     border: none;
@@ -132,14 +136,14 @@ button:active{
     font-size: 23px;
     line-height: 0px;
 }
-.about-text p:nth-child(2){
+/* .about-text p:nth-child(){
     color: #3e3d3d;
     font-size: 13px;
     font-family: myriad pro;
     font-weight: bold;
     line-height: 5px;
-}
-.about-text p:nth-child(3),.about-text p:nth-child(4){
+} */
+.about-text p:nth-child(2),.about-text p:nth-child(4){
     color: #7e7d7d;
     font-family: calibri;
     font-size: 16px;
@@ -303,6 +307,8 @@ footer{
 	justify-content: center;
 	position: relative;
 }
+
+
 .social-icons a{
 	width:40px;
 	height:40px;
@@ -320,16 +326,60 @@ footer{
 .social-icons i,.social i{
 	color:#000000;
 }
-.social-icons a:hover{
-	background-color:#000000;
+
+/* twitter */
+.social-icons .twitter:hover{
+	background-color:#ffffff;
 	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
 	transition:all ease 0.5s;
 }
-.social-icons a:hover i,
-.social a:hover i{
-	color:#FFFFFF;
+
+.social-icons .twitter:hover i,
+.social .twitter:hover i{
+	color:#106df8e5;
 	transition:all ease 0.5s;
 }
+
+/* whatsapp */
+.social-icons .what:hover{
+	background-color:rgb(16, 228, 62);
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	transition:all ease 0.5s;
+}
+
+.social-icons .what:hover i,
+.social .what:hover i{
+	color:#ffffff;
+	transition:all ease 0.5s;
+}
+
+
+/* insta */
+.social-icons .insta:hover{
+	background-image: linear-gradient(45deg,#f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	transition:all ease 0.5s;
+}
+
+.social-icons .insta:hover i,
+.social .insta:hover i{
+	color:#ffffff;
+	transition:all ease 0.5s;
+}
+ /* youtube */
+.social-icons .yt:hover{
+	background-color:rgb(248, 23, 23);
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	transition:all ease 0.5s;
+}
+
+.social-icons .yt:hover i,
+.social .yt:hover i{
+	color:#ffffff;
+	transition:all ease 0.5s;
+}
+
+/* slide social */
  
 .copyright{
 	color:#565555;
@@ -354,16 +404,33 @@ footer{
 	margin:0px;
 	padding: 0px;
 	line-height:0px;
-	background-color:#FFFFFF;
 	border:1px solid #CBCBCB;
+	background-color: #FFFFFF;
 	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
 }
-.social a:hover{
-	background-color:#000000;
+.social .insta:hover{
+	background-image: linear-gradient(45deg,#f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
 	transition:all ease 0.5s;
 }
+.social .what:hover{
+	background-color:#07dd47;
+	transition:all ease 0.5s;
+}
+.social .twitter:hover{
+	color: rgb(14, 127, 202);
+	transition:all ease 0.5s;
+}
+.social .yt:hover{
+	background-color:#ec0d0d;
+	transition:all ease 0.5s;
+}
+
 .social i{
 	font-size:20px;
 	color:#2B2B2B;
+}
+.para{
+	font-weight: 600;
+	font-size: larger;
 }
 
