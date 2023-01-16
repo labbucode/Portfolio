@@ -3,6 +3,9 @@ body{
     margin: 0px;
     padding: 0px;
 }
+html,body{
+	scroll-behavior: smooth;
+}
 ul{
     list-style: none;
 }
@@ -18,6 +21,9 @@ header{
     position: relative;
 }
 nav{
+	position: sticky;
+	top: 0;
+	z-index: 99;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -432,4 +438,6 @@ footer{
 	font-weight: 600;
 	font-size: larger;
 }
-
+@media screen and (max-width:650px){
+	
+}
