@@ -12,7 +12,7 @@ a{
 header{
     width: 100%;
     height: 95vh;
-    background-image: ;
+    /* background-image: ; */
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -29,9 +29,7 @@ nav{
 nav ul{
     display: flex;
 }
-.toggle{
-    display: none;
-}
+
 nav ul li a{
     margin: 30px;
     font-family: myriad pro regular;
@@ -170,20 +168,16 @@ button:active{
 	line-height:0px;
 }
 
-.services-text p:nth-child(2){
-	font-family:calibri;
-	font-weight: bold;
-	color:#3e3d3d;
-	font-size: 15px;
-	line-height: 5px;
-}
-.services-text p:nth-child(3){font-family:calibri;
+.services-text p:nth-child(2){font-family:calibri;
 color:#7e7d7d;
 font-size: 15px;
 }
 
 .services-text{
-	width: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
 	margin:50px 0px;
 }
 .box-container{
@@ -255,7 +249,7 @@ font-size: 15px;
 	outline: none;
 	border-radius:5px;
 } 
-.contact-me{
+.Project{
 	width: 100%;
 	height:280px;
 	background-size:cover;
@@ -268,14 +262,19 @@ font-size: 15px;
 	margin: 0px 0px 20px 0px;
     background-color: #0B0B0B;
 }
-.contact-me p{
+.Project p:nth-child(1){
 	color:#FFFFFF;
 	font-size: 30px;
 	font-family: calibri;
 	font-weight:bold;
 	border-bottom:2px solid #ffffff;
 }
-.contact-me button{
+.Project p:nth-child(2){
+	font-family: calibri;
+	color:#ffffff;
+	padding: 0% 10% 0px 10%
+}
+.Project button{
 	width:200px;
 	height:40px;
 	background-color: #FFFFFF;
