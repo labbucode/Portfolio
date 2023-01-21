@@ -43,12 +43,10 @@ nav ul li a{
     font-size: 15px;
     font-weight: 700;
 }
-.logo{
-    font-family: RoadTest;
-    color: #000000;
-    font-size: 50px;
-    font-weight: 900;
+nav ul li a:hover{
+	border-bottom: 2px solid #505050;
 }
+
 .active{
     color: #2d2a2a;
     font-weight: bold;
@@ -203,16 +201,19 @@ font-size: 15px;
 	margin: 0px 4px;
 	
 }
- 
-.box-1{
-	background-image:url("../images/services-1.png");
+.box-1 button:hover{
+	background-color: #000000;
+	color: #FFFFFF;	
 }
-.box-2{
-	background-image:url("../images/services-2.png");
+.box-2 button:hover{
+	background-color: #000000;
+	color: #FFFFFF;	
 }
-.box-3{
-	background-image: url("../images/servies-3.png");
+.box-3 button:hover{
+	background-color: #000000;
+	color: #FFFFFF;	
 }
+
 .box-1 span,
 .box-2 span,
 .box-3 span{
@@ -258,12 +259,9 @@ font-size: 15px;
 .Project{
 	width: 100%;
 	height:280px;
-	background-size:cover;
-	background-repeat:no-repeat;
-	background-image: url("../images/project in your mind.png");
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 	margin: 0px 0px 20px 0px;
     background-color: #0B0B0B;
@@ -289,6 +287,10 @@ font-size: 15px;
 	font-size:14px;
 	font-weight:bold;
 }
+.Project button a:link, a:visited {
+	color: #0B0B0B;
+  }
+
 footer p{
 	font-family: calibri;
 }
